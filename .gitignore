@@ -1,0 +1,8 @@
+__pycache__/
+chat.py 
+data.pth
+intents.json
+model.py
+nltk_utils.py
+train.py 
+turkish_intents.json 
