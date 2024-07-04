@@ -1,7 +1,8 @@
 # Graphical User Interface (GUI) for Chatbots
 After creating the chatbot, present it in the GUI instead of the terminal. 
 
-https://github.com/emircandogan1/chatbotGUI/assets/69003695/56354806-0dce-4751-87a1-7a5c7a598c67
+https://github.com/emircandogan1/chatbotGUI/assets/69003695/a5b64271-bb38-4133-a4c7-55f039716433
+
 
 
 
