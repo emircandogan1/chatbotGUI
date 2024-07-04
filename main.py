@@ -1,7 +1,7 @@
-from tkinter import *
+from tkinter import *   # using for GUI
 from chat import get_response, bot_name # chat is class that i create for chat-bot
 
-
+# customized settings, bg color, font etc.
 BG_GRAY = "#D3D3D3"      
 BG_COLOR = "#FFFFFF"     
 TEXT_COLOR = "#2C3E50"  
@@ -60,12 +60,14 @@ class ChatApplication:
         if not msg:
             return 
         
+        # user message
         self.msg_entry.delete(0, END)
         msg1 = f"{sender}: {msg}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
 
+        # response message (bot message)
         response = get_response(msg)
         msg2 = f"{bot_name}: {response}\n\n"
         self.text_widget.configure(state=NORMAL)
